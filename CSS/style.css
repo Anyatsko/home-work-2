@@ -1,0 +1,74 @@
+@import url(./reset.css);
+
+*{
+    box-sizing: border-box;
+}
+
+.header {
+    font-family: 'Fascinate', sans-serif;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border: solid 3px red;
+}
+
+.header__logo{
+    height: 150px;
+}
+.header__nav-menu {
+    display: flex;
+    flex-direction: row;
+}
+
+.header__nav-menu-item{
+    padding: 20px;
+}
+
+home {
+    font-family: Kdam Thmor Pro, sans-serif ;
+}
+
+.home{
+    padding: 20px;
+    border: dotted 10px green;
+}
+
+.home h3{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.home .home__paragraph{
+    height: 50px;
+    overflow: scroll;
+}
+
+.about{
+    font-family: Playfair Display, serif ;
+    padding: 20px;
+    border: double 15px yellow;
+}
+
+.info {
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    border: dashed 8px blue;
+}
+.info .info__img{
+    width: auto;
+    height: 200px;
+}
+
+.info h3{
+    font-family: Playfair Display, serif;
+    font-size: 50px;
+    font-weight: bolder;
+    color:rgba(123,1,13,0.5);
+}
+/* font-family: 'Fascinate', cursive;
+font-family: 'Kdam Thmor Pro', sans-serif;
+font-family: 'Playfair Display', serif; */
+
